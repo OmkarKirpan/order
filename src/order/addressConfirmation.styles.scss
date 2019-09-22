@@ -1,0 +1,53 @@
+
+//    Font Family
+
+$primary-font	: 'Roboto', sans-serif;
+$title-font     : 'Poppins', sans-serif;
+
+/*--------------------------- Color variations ----------------------*/
+
+$primary-color	: #ffba00;
+$primary-color2	: #ff6c00;
+$primary-color3	: #828bb3;
+$title-color	: #222222;
+$text-color		: #777777;
+$baseColor: #c5322d; 
+$dip: #222222;
+$pfont: #777777;
+$white			: #fff;
+$black			: #000;
+$offwhite: #fcfcfc;
+
+
+.details_item{
+  h4{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: $title-color;
+    padding-left: 18px;
+  }
+  .list{
+    padding-left: 18px;
+    list-style-type: none;
+    @media (min-width: 767px) {
+      margin-bottom: 30px;
+    }
+    li{
+      margin-bottom: 8px;
+      &:last-child{
+        margin-bottom: 0px;
+      }
+      a{
+        font-size: 14px;
+        color: $title-color;
+        font-family: $primary-font;
+        span{
+          width: 145px;
+          display: inline-block;
+          color: $text-color;
+        }
+      }
+    }
+  }
+}
